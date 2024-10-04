@@ -2,8 +2,7 @@
 
 body {
     width: 500px;
-    margin-inline: auto;
-    font-family: Poppins, 'Helvetica Neue', sans-serif;
+    margin-inline: auto;  
 }
 
 /* HEADER*/
@@ -12,10 +11,44 @@ body {
     background-color: black;
     text-align: center;
     padding: 40px;
+    margin:auto;
 }
 
 /* MAIN */
 
 #div1{
-    background-image: url('./immagini/banner.jpg');
+    background-image: url('./banner.jpg');
+    background-size: contain;
+    padding:50px;
+    text-align: center;
+}
+
+h1 {
+ color: #25a2c3  ;
+ font-family: "Montserrat", sans-serif; 
+ font-size: 3em;
+ font-weight: bold;
+ line-height: 1,5;
+ margin-bottom: 0.7em ;
+}
+
+p{
+    color: #393d41 ;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    line-height: 1.65;
+    margin-bottom: 1.5em ;
+}
+
+button{
+    color:white;
+    background-color: #f04c2f  ;
+    border:hidden;
+    padding: 1.5em;
+    border-radius: 1.5em;
+    font-family:  "Montserrat", sans-serif; 
+    font-weight: bold;
+
+
 }
