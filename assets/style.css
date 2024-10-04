@@ -96,7 +96,7 @@ h2{
     font-size: 2em;
     font-weight: bold;
     line-height: 1.5;
-    padding-top:  2.2em;
+    padding-top:  2em;
     margin-bottom: 0.7em ;
     text-align: center;
 }
@@ -129,10 +129,16 @@ h6{
 
 /*quarta parte main*/
 
+.box1{
+    border: 1px solid #dee1e3;
+    padding: 3em;
+}
+
 .box{
-    border: #dee1e3;
     padding-inline: 1em;
     width: 380px;
+    margin:auto;
+    margin-bottom: 2em;
     
 }
 
@@ -149,7 +155,7 @@ h6{
 #boxfoto2{
     margin:auto;  
     width: 380px;
-    height: 250px;
+    height: 250px;s
     border:hidden;
     background-image: url(./foto2.jpg);
     background-size: cover;
@@ -175,6 +181,7 @@ footer{
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
     line-height: 1.65;
+    padding-top: 0em;
 
 }
 
