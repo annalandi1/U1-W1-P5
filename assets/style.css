@@ -1,0 +1,21 @@
+/* Your styles here */
+
+body {
+    width: 500px;
+    margin-inline: auto;
+    font-family: Poppins, 'Helvetica Neue', sans-serif;
+}
+
+/* HEADER*/
+
+.header{
+    background-color: black;
+    text-align: center;
+    padding: 40px;
+}
+
+/* MAIN */
+
+#div1{
+    background-image: url('./immagini/banner.jpg');
+}
